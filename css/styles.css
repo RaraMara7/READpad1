@@ -1,0 +1,214 @@
+#title{
+  background-color:
+#8bded8;
+}
+h1{
+  font-family: 'Abril Fatface', cursive;
+font-family: 'Cookie', cursive;
+font-family: 'Sansita Swashed', cursive;
+font-family: 'Unna', serif;
+font-size: 5rem;
+line-height: 2;
+}
+h3{
+  font-family: 'Abril Fatface', cursive;
+  font-size: 2rem;
+  line-height: 1;
+}
+body{
+  font-family: 'Abril Fatface', cursive;
+  font-family: 'Cookie', cursive;
+  font-family: 'Sansita Swashed', cursive;
+}
+.container-fluid{
+  padding: 6% 6% 9% 6%;
+}
+
+/* Navigation Bar */
+.navbar-brand{
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.navbar{
+  padding-bottom: 2rem;
+}
+.nav-item{
+  padding: 0 18px ;
+}
+.nav-link{
+  font-size: 1.5rem;
+}
+
+/* Download Buttons */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+.READpad{
+  height: 75%;
+  width: 75%;
+}
+/* Media Query */
+
+@media (max-width:1028px){
+
+#title {
+  text-align: center;
+}
+
+.READpad {
+    transform: rotate(0deg);
+    padding-top: 30px;
+  }
+
+h1 {
+  text-align: center;
+  font-size: 5rem;
+}
+
+.nav-link {
+  font-size: 14px;
+}
+
+}
+.READpad{
+  position: static;
+}
+
+#features {
+  padding: 3% 3%;
+  position: relative;
+}
+
+.fa-2x {
+  color: pink;
+  font-size: 3rem;
+}
+
+.fa-2x:hover {
+  color:lightblue;
+}
+
+.Features{
+  padding: 5%;
+  margin: 2rem;
+  text-align: center;
+
+}
+/* Media Query */
+
+@media (max-width:992px) {
+h3 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 14px;
+}
+
+}
+#Testimonials {
+  text-align: center;
+  background-color: #ff877f;
+  color: black;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonial-image {
+  width: 15%;
+  length: 20%;
+  border-radius: 50%;
+  margin: 20px;
+}
+/* Media Query */
+
+@media (max-width:1028px) {
+ em {
+  font-size: 14px;
+}
+ .testimonial-image{
+  width: 75px;
+  length: 60px;
+}
+}
+
+
+/* Press Section */
+#press {
+  background-color: #ff877f;
+  text-align: center;
+  padding-bottom: 3%
+}
+
+.press-logo {
+  width: 21%;
+  margin: 20px 20px 30px;
+}
+.press-logo{
+  position: static;
+}
+/* Media Query */
+
+@media (max-width:1028px) {
+  .press-logo {
+    height: 90px;
+    width: 100px;
+  }
+}
+/* Pricing Section */
+.Heading {
+  text-align: center;
+  padding: 4% 2%;
+}
+
+.carditems {
+  text-align: center;
+  padding: 0% 5% 4%;
+}
+
+.card {
+  margin-bottom: 3%;
+}
+
+.card-header {
+    text-align: center;
+  background-color: #ff877f;
+  color: white;
+}
+
+.card-body {
+  text-align: center;
+  background-color:pink ;
+}
+.sign-button{
+  margin: 2% 1% 2% 0;
+}
+
+/* Call to Action */
+#cta {
+  text-align: center;
+  background-color:#8bded8 ;
+  padding: 8% 10%;
+}
+.action-button{
+  margin: 5% 3% 5% 0;
+}
+/* Media Query */
+@media (max-width:1028px) {
+h1 {
+  font-size: 40px;
+}
+}
+
+/* -----------FOOTER SECTION--------- */
+#footer {
+  text-align: center;
+  padding-top: 6%;
+  padding-bottom: 6%;
+}
+.fa-2x{
+  margin: 2% 1% 2% 0;
+}
